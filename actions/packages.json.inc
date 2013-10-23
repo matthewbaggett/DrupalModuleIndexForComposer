@@ -12,7 +12,7 @@ $app->get('/packages.json', function () {
 
     // Response.
     header("Content-type: application/json");
-    $jsonPretty = new webignition\JsonPrettyPrinter\JsonPrettyPrinter();
+    $jsonPretty = new \webignition\JsonPrettyPrinter\JsonPrettyPrinter();
     echo $jsonPretty->format(json_encode($response));
     exit;
 });
