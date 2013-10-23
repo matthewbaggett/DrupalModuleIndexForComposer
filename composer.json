@@ -9,6 +9,9 @@
     ],
     "require": {
       "slim/slim": "2.*",
-      "guzzle/guzzle": "3.7.*"
+      "guzzle/guzzle": "3.7.*",
+      "amstaff/simplehtmldom": "dev-master",
+      "filp/whoops": "1.0.8",
+      "oodle/krumo": "v0.4.3"
     }
 }
