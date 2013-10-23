@@ -68,7 +68,7 @@ EOT;
       $endpoint_html[] = "  <dt>Pattern</dt>";
       $endpoint_html[] = "  <dd>{$methods} {$route->getPattern()}</dd>";
       $endpoint_html[] = "  <dt>Example</dt>";
-      $endpoint_html[] = "  <dd><a href=\"{$example_url}\">{$example}</a></dd>";
+      $endpoint_html[] = "  <dd><a href=\"{$example_url}\">/{$example}</a></dd>";
       $endpoint_html[] = "</dl>";
 
       $endpoints_html[] = implode('', $endpoint_html);
