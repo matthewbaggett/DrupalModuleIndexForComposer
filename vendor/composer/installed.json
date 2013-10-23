@@ -1,24 +1,173 @@
 [
     {
-        "name": "slim/slim",
-        "version": "2.3.3",
-        "version_normalized": "2.3.3.0",
+        "name": "amstaff/simplehtmldom",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/codeguy/Slim.git",
-            "reference": "2952d3810a3f99256ea23142258f05f0c55e7a9e"
+            "url": "https://github.com/AmsTaFFix/SimpleHtmlDom.git",
+            "reference": "75e4a4c86c033ee29cbab0a4d45309a0f8ae8065"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/codeguy/Slim/zipball/2952d3810a3f99256ea23142258f05f0c55e7a9e",
-            "reference": "2952d3810a3f99256ea23142258f05f0c55e7a9e",
+            "url": "https://api.github.com/repos/AmsTaFFix/SimpleHtmlDom/zipball/75e4a4c86c033ee29cbab0a4d45309a0f8ae8065",
+            "reference": "75e4a4c86c033ee29cbab0a4d45309a0f8ae8065",
             "shasum": ""
         },
         "require": {
-            "ext-mcrypt": "*",
+            "php": ">=5.2.0"
+        },
+        "time": "2013-01-14 15:17:25",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "SimpleHtmlDom": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "S.C. Chen",
+                "email": "me578022@gmail.com",
+                "homepage": "http://simplehtmldom.sourceforge.net/"
+            }
+        ],
+        "description": "вызов библиотеки \"simple_html_dom\" в стиле PSR-#",
+        "homepage": "http://simplehtmldom.sourceforge.net/",
+        "keywords": [
+            "Simple",
+            "dom",
+            "html"
+        ]
+    },
+    {
+        "name": "filp/whoops",
+        "version": "1.0.8",
+        "version_normalized": "1.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/filp/whoops.git",
+            "reference": "d086796e7cfb59f532d07738e5e4cf0ac3c6deb8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/filp/whoops/zipball/d086796e7cfb59f532d07738e5e4cf0ac3c6deb8",
+            "reference": "d086796e7cfb59f532d07738e5e4cf0ac3c6deb8",
+            "shasum": ""
+        },
+        "require": {
             "php": ">=5.3.0"
         },
-        "time": "2013-10-12 17:24:20",
+        "require-dev": {
+            "mockery/mockery": "dev-master",
+            "silex/silex": "1.0.*@dev"
+        },
+        "time": "2013-08-06 20:39:59",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Whoops": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Filipe Dobreira",
+                "homepage": "https://github.com/filp",
+                "role": "Developer"
+            }
+        ],
+        "description": "php error handling for cool kids",
+        "homepage": "https://github.com/filp/whoops",
+        "keywords": [
+            "error",
+            "exception",
+            "handling",
+            "library",
+            "silex-provider",
+            "whoops",
+            "zf2"
+        ]
+    },
+    {
+        "name": "oodle/krumo",
+        "version": "v0.4.3",
+        "version_normalized": "0.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oodle/krumo.git",
+            "reference": "4ac426c24b9e75c1062274ab5364bdcfac4766a3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oodle/krumo/zipball/4ac426c24b9e75c1062274ab5364bdcfac4766a3",
+            "reference": "4ac426c24b9e75c1062274ab5364bdcfac4766a3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.17"
+        },
+        "time": "2013-10-10 20:08:23",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "class.krumo.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Kaloyan K. Tsvetkov",
+                "email": "kaloyan@kaloyan.info"
+            },
+            {
+                "name": "Matthew J. Mucklo",
+                "email": "mmucklo@corp.oodle.com"
+            },
+            {
+                "name": "Stefan Thomas",
+                "email": "moon@justmoon.de"
+            }
+        ],
+        "description": "KRUMO - version 2.0 of print_r(); and var_dump(); (with new updates)",
+        "keywords": [
+            "debug",
+            "debugging",
+            "krumo",
+            "pretty",
+            "print",
+            "print_r",
+            "var_dump"
+        ]
+    },
+    {
+        "name": "slim/slim",
+        "version": "2.2.0",
+        "version_normalized": "2.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/codeguy/Slim.git",
+            "reference": "b8181de1112a1e2f565b40158b621c34ded38053"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/codeguy/Slim/zipball/b8181de1112a1e2f565b40158b621c34ded38053",
+            "reference": "b8181de1112a1e2f565b40158b621c34ded38053",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2012-12-13 02:15:50",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -193,156 +342,6 @@
             "http client",
             "rest",
             "web service"
-        ]
-    },
-    {
-        "name": "amstaff/simplehtmldom",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/AmsTaFFix/SimpleHtmlDom.git",
-            "reference": "75e4a4c86c033ee29cbab0a4d45309a0f8ae8065"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/AmsTaFFix/SimpleHtmlDom/zipball/75e4a4c86c033ee29cbab0a4d45309a0f8ae8065",
-            "reference": "75e4a4c86c033ee29cbab0a4d45309a0f8ae8065",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.0"
-        },
-        "time": "2013-01-14 15:17:25",
-        "type": "library",
-        "installation-source": "source",
-        "autoload": {
-            "psr-0": {
-                "SimpleHtmlDom": "lib/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "authors": [
-            {
-                "name": "S.C. Chen",
-                "email": "me578022@gmail.com",
-                "homepage": "http://simplehtmldom.sourceforge.net/"
-            }
-        ],
-        "description": "вызов библиотеки \"simple_html_dom\" в стиле PSR-#",
-        "homepage": "http://simplehtmldom.sourceforge.net/",
-        "keywords": [
-            "Simple",
-            "dom",
-            "html"
-        ]
-    },
-    {
-        "name": "filp/whoops",
-        "version": "1.0.8",
-        "version_normalized": "1.0.8.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/filp/whoops.git",
-            "reference": "d086796e7cfb59f532d07738e5e4cf0ac3c6deb8"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/filp/whoops/zipball/d086796e7cfb59f532d07738e5e4cf0ac3c6deb8",
-            "reference": "d086796e7cfb59f532d07738e5e4cf0ac3c6deb8",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.0"
-        },
-        "require-dev": {
-            "mockery/mockery": "dev-master",
-            "silex/silex": "1.0.*@dev"
-        },
-        "time": "2013-08-06 20:39:59",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Whoops": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Filipe Dobreira",
-                "homepage": "https://github.com/filp",
-                "role": "Developer"
-            }
-        ],
-        "description": "php error handling for cool kids",
-        "homepage": "https://github.com/filp/whoops",
-        "keywords": [
-            "error",
-            "exception",
-            "handling",
-            "library",
-            "silex-provider",
-            "whoops",
-            "zf2"
-        ]
-    },
-    {
-        "name": "oodle/krumo",
-        "version": "v0.4.3",
-        "version_normalized": "0.4.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/oodle/krumo.git",
-            "reference": "4ac426c24b9e75c1062274ab5364bdcfac4766a3"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/oodle/krumo/zipball/4ac426c24b9e75c1062274ab5364bdcfac4766a3",
-            "reference": "4ac426c24b9e75c1062274ab5364bdcfac4766a3",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.17"
-        },
-        "time": "2013-10-10 20:08:23",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "class.krumo.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "LGPL"
-        ],
-        "authors": [
-            {
-                "name": "Kaloyan K. Tsvetkov",
-                "email": "kaloyan@kaloyan.info"
-            },
-            {
-                "name": "Matthew J. Mucklo",
-                "email": "mmucklo@corp.oodle.com"
-            },
-            {
-                "name": "Stefan Thomas",
-                "email": "moon@justmoon.de"
-            }
-        ],
-        "description": "KRUMO - version 2.0 of print_r(); and var_dump(); (with new updates)",
-        "keywords": [
-            "debug",
-            "debugging",
-            "krumo",
-            "pretty",
-            "print",
-            "print_r",
-            "var_dump"
         ]
     }
 ]

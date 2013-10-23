@@ -6,7 +6,7 @@
  * @copyright   2011 Josh Lockhart
  * @link        http://www.slimframework.com
  * @license     http://www.slimframework.com/license
- * @version     2.3.3
+ * @version     2.0.0
  * @package     Slim
  *
  * MIT LICENSE
@@ -285,7 +285,6 @@ class Route
 
     /**
      * Detect support for an HTTP method
-     * @param  string $method
      * @return bool
      */
     public function supportsHttpMethod($method)
@@ -321,7 +320,7 @@ class Route
         if (is_callable($middleware)) {
             $this->middleware[] = $middleware;
         } elseif (is_array($middleware)) {
-            foreach ($middleware as $callable) {
+            foreach($middleware as $callable) {
                 if (!is_callable($callable)) {
                     throw new \InvalidArgumentException('All Route middleware must be callable');
                 }
@@ -348,11 +347,8 @@ class Route
     public function matches($resourceUri)
     {
         //Convert URL params into regex patterns, construct a regex for this route, init params
-        $patternAsRegex = preg_replace_callback(
-            '#:([\w]+)\+?#',
-            array($this, 'matchesCallback'),
-            str_replace(')', ')?', (string) $this->pattern)
-        );
+        $patternAsRegex = preg_replace_callback('#:([\w]+)\+?#', array($this, 'matchesCallback'),
+            str_replace(')', ')?', (string) $this->pattern));
         if (substr($this->pattern, -1) === '/') {
             $patternAsRegex .= '?';
         }
@@ -376,8 +372,8 @@ class Route
 
     /**
      * Convert a URL parameter (e.g. ":id", ":id+") into a regular expression
-     * @param  array    $m  URL parameters
-     * @return string       Regular expression for URL parameter
+     * @param  array    URL parameters
+     * @return string   Regular expression for URL parameter
      */
     protected function matchesCallback($m)
     {
@@ -416,24 +412,5 @@ class Route
         $this->conditions = array_merge($this->conditions, $conditions);
 
         return $this;
-    }
-
-    /**
-     * Dispatch route
-     *
-     * This method invokes the route object's callable. If middleware is
-     * registered for the route, each callable middleware is invoked in
-     * the order specified.
-     *
-     * @return bool
-     */
-    public function dispatch()
-    {
-        foreach ($this->middleware as $mw) {
-            call_user_func_array($mw, array($this));
-        }
-
-        $return = call_user_func_array($this->getCallable(), array_values($this->getParams()));
-        return ($return === false)? false : true;
     }
 }

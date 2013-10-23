@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "44ffedef8be4099210758c5c2cbca08a",
+    "hash": "0c9e875d93d7df10bf9d6ed85fb87e1f",
     "packages": [
         {
             "name": "amstaff/simplehtmldom",
@@ -243,20 +243,19 @@
         },
         {
             "name": "slim/slim",
-            "version": "2.3.3",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeguy/Slim.git",
-                "reference": "2952d3810a3f99256ea23142258f05f0c55e7a9e"
+                "reference": "b8181de1112a1e2f565b40158b621c34ded38053"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeguy/Slim/zipball/2952d3810a3f99256ea23142258f05f0c55e7a9e",
-                "reference": "2952d3810a3f99256ea23142258f05f0c55e7a9e",
+                "url": "https://api.github.com/repos/codeguy/Slim/zipball/b8181de1112a1e2f565b40158b621c34ded38053",
+                "reference": "b8181de1112a1e2f565b40158b621c34ded38053",
                 "shasum": ""
             },
             "require": {
-                "ext-mcrypt": "*",
                 "php": ">=5.3.0"
             },
             "type": "library",
@@ -283,7 +282,7 @@
                 "rest",
                 "router"
             ],
-            "time": "2013-10-12 17:24:20"
+            "time": "2012-12-13 02:15:50"
         },
         {
             "name": "symfony/event-dispatcher",
