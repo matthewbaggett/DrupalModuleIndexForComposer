@@ -1,0 +1,219 @@
+
+table {
+    margin: 1em 0;
+    width: 100%;
+    font-size: 10px;
+}
+
+thead th {
+    border-bottom: 2px solid #d3e7f4;
+    color: #CCCCCC;
+    font-weight: bold;
+}
+
+th a:link,
+th a:visited {
+    color: #6f9dbd;
+}
+
+td,
+th {
+    padding: .3em .5em;
+}
+
+tr.even,
+tr.odd,
+tbody th {
+    border: solid #d3e7f4;
+    border-width: 1px 0;
+}
+
+tr.odd,
+tr.info {
+    background-color: #edf5fa;
+}
+
+tr.even {
+    background-color: #fff;
+}
+
+tr.drag {
+    background-color: #ffb;
+}
+
+tr.drag-previous {
+    background-color: #ffd;
+}
+
+tr.odd td.active {
+    background-color: #ddecf5;
+}
+
+tr.even td.active {
+    background-color: #e6f1f7;
+}
+
+td.region-title,
+td.module,
+td.container,
+td.category {
+    border-top: 1.5em solid #fff;
+    border-bottom: 1px solid #b4d7f0;
+    background-color: #d4e7f3;
+    color: #455067;
+    font-weight: bold;
+}
+
+tr:first-child td.region-title,
+tr:first-child td.module,
+tr:first-child td.container,
+tr:first-child td.category {
+    border-top-width: 0;
+}
+
+
+table {
+    color: #494949;
+}
+
+table thead tr {
+    background-color: #EDF5FA;
+}
+
+table thead tr th,
+table a {
+    color: #333333 !important;
+}
+
+
+tr.dblog-user {
+    background-color: #fcf9e5;
+}
+
+tr.dblog-user td.active {
+    background-color: #fbf5cf;
+}
+
+tr.dblog-content {
+    background-color: #fefefe;
+}
+
+tr.dblog-content td.active {
+    background-color: #f5f5f5;
+}
+
+tr.dblog-warning {
+    background-color: #fdf5e6;
+}
+
+tr.dblog-warning td.active {
+    background-color: #fdf2de;
+}
+
+tr.dblog-error {
+    background-color: #fbe4e4;
+}
+
+tr.dblog-error td.active {
+    background-color: #fbdbdb;
+}
+
+tr.dblog-page-not-found,
+tr.dblog-access-denied {
+    background: #d7ffd7;
+}
+
+tr.dblog-page-not-found td.active,
+tr.dblog-access-denied td.active {
+    background: #c7eec7;
+}
+
+/**
+ * Status report colors.
+ */
+table.system-status-report tr.error,
+table.system-status-report tr.error th {
+    background-color: #fcc;
+    border-color: #ebb;
+    color: #200;
+}
+
+table.system-status-report tr.warning,
+table.system-status-report tr.warning th {
+    background-color: #ffd;
+    border-color: #eeb;
+}
+
+table.system-status-report tr.ok,
+table.system-status-report tr.ok th {
+    background-color: #dfd;
+    border-color: #beb;
+}
+
+/**
+ * @file
+ * Admin styles for the Database Logging module.
+ */
+
+.form-item-type,
+.form-item-severity {
+    float: left; /* LTR */
+    padding-right: .8em; /* LTR */
+    margin: 0.1em;
+    /**
+     * In Opera 9, DOM elements with the property of "overflow: auto"
+     * will partially hide its contents with unnecessary scrollbars when
+     * its immediate child is floated without an explicit width set.
+     */
+    width: 15em;
+}
+#dblog-filter-form .form-type-select select {
+    width: 100%;
+}
+#dblog-filter-form .form-actions {
+    float: left;
+    padding: 3ex 0 0 1em;
+}
+
+tr.dblog-user {
+    background: #ffd;
+}
+tr.dblog-user .active {
+    background: #eed;
+}
+tr.dblog-content {
+    background: #ddf;
+}
+tr.dblog-content .active {
+    background: #cce;
+}
+tr.dblog-page-not-found,
+tr.dblog-access-denied {
+    background: #dfd;
+}
+tr.dblog-page-not-found .active,
+tr.dblog-access-denied .active {
+    background: #cec;
+}
+tr.dblog-error {
+    background: #ffc9c9;
+}
+tr.dblog-error .active {
+    background: #eeb9b9;
+}
+table#admin-dblog td.icon {
+    background: no-repeat center;
+    width: 16px;
+}
+table#admin-dblog tr.dblog-warning td.icon {
+    background-image: url(../../misc/message-16-warning.png);
+}
+table#admin-dblog tr.dblog-error td.icon,
+table#admin-dblog tr.dblog-critical td.icon,
+table#admin-dblog tr.dblog-alert td.icon,
+table#admin-dblog tr.dblog-emerg td.icon {
+    background-image: url(../../misc/message-16-error.png);
+}
+
+table#admin-dblog tr td.hostname{}
+table#admin-dblog tr td.date{ width:100px;}
