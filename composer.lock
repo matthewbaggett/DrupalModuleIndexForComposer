@@ -3,24 +3,24 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a3aa2ff0d7066f1b51bc29dd0081ea7b",
+    "hash": "668bdfe9997b994db9fccae769725e55",
     "packages": [
         {
             "name": "camspiers/json-pretty",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/camspiers/json-pretty.git",
-                "reference": "7ea1c767e653a487559403af82dc11c12b2bd108"
+                "reference": "5768744b4d49caee418ed05bd2fb8bdab3c33164"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/camspiers/json-pretty/zipball/7ea1c767e653a487559403af82dc11c12b2bd108",
-                "reference": "7ea1c767e653a487559403af82dc11c12b2bd108",
+                "url": "https://api.github.com/repos/camspiers/json-pretty/zipball/5768744b4d49caee418ed05bd2fb8bdab3c33164",
+                "reference": "5768744b4d49caee418ed05bd2fb8bdab3c33164",
                 "shasum": ""
             },
             "require": {
-                "pimple/pimple": "~1.0"
+                "pimple/pimple": "1.0.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*"
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "Provides support for json pretty printing in php 5.3",
-            "time": "2013-08-27 14:22:46"
+            "time": "2013-01-28 01:00:57"
         },
         {
             "name": "guzzle/guzzle",
@@ -139,16 +139,16 @@
         },
         {
             "name": "pimple/pimple",
-            "version": "v1.0.2",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Pimple.git",
-                "reference": "ae11e57e8c2bb414b2ff93396dbbfc0eb92feb94"
+                "reference": "86df0604a10c5faf20b466ae6a0b762cc6ed0a35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Pimple/zipball/ae11e57e8c2bb414b2ff93396dbbfc0eb92feb94",
-                "reference": "ae11e57e8c2bb414b2ff93396dbbfc0eb92feb94",
+                "url": "https://api.github.com/repos/fabpot/Pimple/zipball/86df0604a10c5faf20b466ae6a0b762cc6ed0a35",
+                "reference": "86df0604a10c5faf20b466ae6a0b762cc6ed0a35",
                 "shasum": ""
             },
             "require": {
@@ -181,7 +181,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2013-03-08 08:21:40"
+            "time": "2012-11-11 08:32:34"
         },
         {
             "name": "slim/slim",
@@ -289,9 +289,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "camspiers/json-pretty": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],

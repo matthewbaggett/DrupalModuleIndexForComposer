@@ -10,6 +10,6 @@
     "require": {
       "slim/slim": "2.*",
       "guzzle/guzzle": "3.7.*",
-      "camspiers/json-pretty": "dev-master"
+      "camspiers/json-pretty": "0.1.*"
     }
 }
