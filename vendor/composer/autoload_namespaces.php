@@ -8,8 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Symfony\\Component\\EventDispatcher\\' => array($vendorDir . '/symfony/event-dispatcher'),
     'Slim' => array($vendorDir . '/slim/slim'),
-    'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
     'Guzzle\\Tests' => array($vendorDir . '/guzzle/guzzle/tests'),
     'Guzzle' => array($vendorDir . '/guzzle/guzzle/src'),
-    'Camspiers' => array($vendorDir . '/camspiers/json-pretty/src'),
+    '' => array($vendorDir . '/webignition/json-pretty-print/src'),
 );
