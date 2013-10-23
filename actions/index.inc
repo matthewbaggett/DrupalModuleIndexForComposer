@@ -55,7 +55,7 @@ EOT;
     foreach ($routes as $route) {
       /* @var $route \Slim\Route */
 
-      $example = examplify($route->getPattern());
+      $example = ltrim(examplify($route->getPattern()), "/");
       $dir = dirname($_SERVER['SCRIPT_NAME']);
       $example_url = "http://" . $_SERVER['SERVER_NAME'] . $dir . str_replace("/json", "/human", $example);
       $methods = implode(" | ", $route->getHttpMethods());
