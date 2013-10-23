@@ -12,7 +12,8 @@ $app->get('/packages.json', function () {
 
     // Response.
     header("Content-type: application/json");
-    echo json_encode($response);
+    $jsonPretty = new Camspiers\JsonPretty\JsonPretty;
+    echo $jsonPretty->prettify($response);
     exit;
 });
 

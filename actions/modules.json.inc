@@ -6,6 +6,8 @@ $app->get('/modules/:version/modules.json', function ($version) {
 
     // Response.
     header("Content-type: application/json");
-    echo json_encode($response);
+    $jsonPretty = new Camspiers\JsonPretty\JsonPretty;
+    echo $jsonPretty->prettify($response);
     exit;
-  });
+  }
+);
