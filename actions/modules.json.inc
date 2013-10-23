@@ -19,7 +19,6 @@ $app->get('/modules/:version/modules.json', function ($version) {
     $dom = new SimpleHtmlDom\SimpleHtmlDom();
     $dom->load($response->getBody());
 
-
     // Response.
     header("Content-type: application/json");
     echo json_pretty(json_encode($response));
