@@ -13,7 +13,7 @@ $app->get(
     <html>
         <head>
             <meta charset="utf-8"/>
-            <title>CMDB Access API</title>
+            <title>Drupal Modules for Composer</title>
             <style type="text/css" media="all">
               @import url("layout/css/default.css");
             </style>
@@ -56,8 +56,8 @@ EOT;
       /* @var $route \Slim\Route */
 
       $example = examplify($route->getPattern());
-      $root_path = dirname($_SERVER['SCRIPT_NAME']);
-      $example_url = $root_path . str_replace("/json", "/human", $example);
+      $dir = dirname($_SERVER['SCRIPT_NAME']);
+      $example_url = "http://" . $_SERVER['SERVER_NAME'] . $dir . str_replace("/json", "/human", $example);
       $methods = implode(" | ", $route->getHttpMethods());
 
       // Build HTML
