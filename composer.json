@@ -1,0 +1,14 @@
+{
+    "name": "fouroneone/drupal-module-index-for-composer",
+    "description": "Attempt to automate indexing Drupal modules so I can include them with composer, because I'm ultimately, a lazy sod.",
+    "authors": [
+        {
+            "name": "Matthew Baggett",
+            "email": "matthew@fouroneone.us"
+        }
+    ],
+    "require": {
+      "slim/slim": "2.*",
+      "guzzle/guzzle": "3.7.*"
+    }
+}
