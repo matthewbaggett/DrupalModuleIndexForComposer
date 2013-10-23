@@ -9,7 +9,6 @@
     ],
     "require": {
       "slim/slim": "2.*",
-      "guzzle/guzzle": "3.7.*",
-      "webignition/json-pretty-print": "dev-master"
+      "guzzle/guzzle": "3.7.*"
     }
 }

@@ -10,5 +10,4 @@ return array(
     'Slim' => array($vendorDir . '/slim/slim'),
     'Guzzle\\Tests' => array($vendorDir . '/guzzle/guzzle/tests'),
     'Guzzle' => array($vendorDir . '/guzzle/guzzle/src'),
-    '' => array($vendorDir . '/webignition/json-pretty-print/src'),
 );

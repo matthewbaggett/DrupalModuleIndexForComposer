@@ -6,8 +6,7 @@ $app->get('/modules/:version/modules.json', function ($version) {
 
     // Response.
     header("Content-type: application/json");
-    $jsonPretty = new \webignition\JsonPrettyPrinter\JsonPrettyPrinter();
-    echo $jsonPretty->format(json_encode($response));
+    echo json_pretty(json_encode($response));
     exit;
   }
 );

@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "ad1c7735a874668af072f58aff25dccb",
+    "hash": "2e30627ac8bcaafd66c376cfb6f6bc96",
     "packages": [
         {
             "name": "guzzle/guzzle",
@@ -194,48 +194,6 @@
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
             "time": "2013-09-19 09:45:20"
-        },
-        {
-            "name": "webignition/json-pretty-print",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webignition/json-pretty-print.git",
-                "reference": "72831627c3264374766f100145ca11fee3581729"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webignition/json-pretty-print/zipball/72831627c3264374766f100145ca11fee3581729",
-                "reference": "72831627c3264374766f100145ca11fee3581729",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jon Cram",
-                    "email": "jon@webignition.net"
-                }
-            ],
-            "description": "Prettifies a JSON string for human readability",
-            "homepage": "https://github.com/webignition/json-pretty-print",
-            "keywords": [
-                "formatter",
-                "json",
-                "pretty-print"
-            ],
-            "time": "2012-07-23 23:22:31"
         }
     ],
     "packages-dev": [
@@ -245,9 +203,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "webignition/json-pretty-print": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
