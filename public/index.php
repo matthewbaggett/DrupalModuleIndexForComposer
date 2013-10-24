@@ -1,8 +1,8 @@
 <?php
 require_once("../configure.inc");
 require_once("../lib/json_pretty.inc");
-require_once("../models/Package.inc");
 require_once("../vendor/autoload.php");
+require_once("../models/Package.inc");
 
 $app = new \Slim\Slim();
 

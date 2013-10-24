@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0c9e875d93d7df10bf9d6ed85fb87e1f",
+    "hash": "ece48dfba482bbc3333bb378ca634fa4",
     "packages": [
         {
             "name": "amstaff/simplehtmldom",
@@ -95,6 +95,36 @@
                 "zf2"
             ],
             "time": "2013-08-06 20:39:59"
+        },
+        {
+            "name": "fouroneone/activerecord",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FourOneOne/ActiveRecord.git",
+                "reference": "9b3c233117855ecc9f68cdf5a6c227af423f2027"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FourOneOne/ActiveRecord/zipball/9b3c233117855ecc9f68cdf5a6c227af423f2027",
+                "reference": "9b3c233117855ecc9f68cdf5a6c227af423f2027",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ActiveRecord": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Matthew Baggett",
+                    "email": "matthew@fouroneone.us"
+                }
+            ],
+            "description": "An active-record like implementation",
+            "time": "2013-10-23 22:25:58"
         },
         {
             "name": "guzzle/guzzle",
@@ -347,7 +377,8 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "amstaff/simplehtmldom": 20
+        "amstaff/simplehtmldom": 20,
+        "fouroneone/activerecord": 20
     },
     "platform": [
 

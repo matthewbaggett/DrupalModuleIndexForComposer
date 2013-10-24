@@ -12,4 +12,5 @@ return array(
     'SimpleHtmlDom' => array($vendorDir . '/amstaff/simplehtmldom/lib'),
     'Guzzle\\Tests' => array($vendorDir . '/guzzle/guzzle/tests'),
     'Guzzle' => array($vendorDir . '/guzzle/guzzle/src'),
+    'ActiveRecord' => array($vendorDir . '/fouroneone/activerecord/src'),
 );

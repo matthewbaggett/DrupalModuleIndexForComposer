@@ -343,5 +343,37 @@
             "rest",
             "web service"
         ]
+    },
+    {
+        "name": "fouroneone/activerecord",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FourOneOne/ActiveRecord.git",
+            "reference": "9b3c233117855ecc9f68cdf5a6c227af423f2027"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/FourOneOne/ActiveRecord/zipball/9b3c233117855ecc9f68cdf5a6c227af423f2027",
+            "reference": "9b3c233117855ecc9f68cdf5a6c227af423f2027",
+            "shasum": ""
+        },
+        "time": "2013-10-23 22:25:58",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "ActiveRecord": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Matthew Baggett",
+                "email": "matthew@fouroneone.us"
+            }
+        ],
+        "description": "An active-record like implementation"
     }
 ]

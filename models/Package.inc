@@ -1,6 +1,6 @@
 <?php
 
-class Package{
+class Package extends \ActiveRecord\active_record{
     public $name;
     public $version;
     public $version_normalised;
