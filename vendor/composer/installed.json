@@ -150,24 +150,57 @@
         ]
     },
     {
-        "name": "slim/slim",
-        "version": "2.2.0",
-        "version_normalized": "2.2.0.0",
+        "name": "fouroneone/activerecord",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/codeguy/Slim.git",
-            "reference": "b8181de1112a1e2f565b40158b621c34ded38053"
+            "url": "https://github.com/FourOneOne/ActiveRecord.git",
+            "reference": "9b3c233117855ecc9f68cdf5a6c227af423f2027"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/codeguy/Slim/zipball/b8181de1112a1e2f565b40158b621c34ded38053",
-            "reference": "b8181de1112a1e2f565b40158b621c34ded38053",
+            "url": "https://api.github.com/repos/FourOneOne/ActiveRecord/zipball/9b3c233117855ecc9f68cdf5a6c227af423f2027",
+            "reference": "9b3c233117855ecc9f68cdf5a6c227af423f2027",
+            "shasum": ""
+        },
+        "time": "2013-10-23 22:25:58",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "ActiveRecord": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Matthew Baggett",
+                "email": "matthew@fouroneone.us"
+            }
+        ],
+        "description": "An active-record like implementation"
+    },
+    {
+        "name": "slim/slim",
+        "version": "2.3.3",
+        "version_normalized": "2.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/codeguy/Slim.git",
+            "reference": "2952d3810a3f99256ea23142258f05f0c55e7a9e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/codeguy/Slim/zipball/2952d3810a3f99256ea23142258f05f0c55e7a9e",
+            "reference": "2952d3810a3f99256ea23142258f05f0c55e7a9e",
             "shasum": ""
         },
         "require": {
+            "ext-mcrypt": "*",
             "php": ">=5.3.0"
         },
-        "time": "2012-12-13 02:15:50",
+        "time": "2013-10-12 17:24:20",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -343,37 +376,5 @@
             "rest",
             "web service"
         ]
-    },
-    {
-        "name": "fouroneone/activerecord",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/FourOneOne/ActiveRecord.git",
-            "reference": "9b3c233117855ecc9f68cdf5a6c227af423f2027"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/FourOneOne/ActiveRecord/zipball/9b3c233117855ecc9f68cdf5a6c227af423f2027",
-            "reference": "9b3c233117855ecc9f68cdf5a6c227af423f2027",
-            "shasum": ""
-        },
-        "time": "2013-10-23 22:25:58",
-        "type": "library",
-        "installation-source": "source",
-        "autoload": {
-            "psr-0": {
-                "ActiveRecord": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "authors": [
-            {
-                "name": "Matthew Baggett",
-                "email": "matthew@fouroneone.us"
-            }
-        ],
-        "description": "An active-record like implementation"
     }
 ]
